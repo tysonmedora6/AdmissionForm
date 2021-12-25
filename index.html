@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Admission Form</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><b><u>ADMISSION FORM</u></b></h1>
+    <section class="container">
+        <div class="col-md-6 col-sm-12">
+        
+        <form  id="one">
+            <label>
+                Form No. :<input type="number"  />
+              </label>
+              
+              <label>
+                Date :<input type="date" />
+              </label>
+              
+              <label>
+                Admission No. :<input type="number" name="dummy3" />
+              </label>
+              <hr style="height:30px;width:100%;margin-left:0;
+              color:black;background-color:black">
+        </form>
+    </div>
+    <div id="two" class="col-md-6 col-sm-12">
+        
+        <div id="adbox" class="col-md-6">
+            
+        <form>
+            <img src="" alt="Photo of the student"><input type="file"  name="profilepic" accept=".jpeg,.jpg,.png" />
+            
+        </form>
+        </div>
+        
+     
+        <hr style="height:30px;width:100%;margin-left:0;color:black;background-color:black">
+    </div>
+    </section>
+    <section class="container"> 
+    <div id="three">
+        <h2>STUDENT'S PROFILE :</h2>
+    </div>
+    <div id="three" class="row" >
+    <div  class="col-md-12">
+    
+            <label>
+            Name of pupil (In capital letters) :<input type="text"  size="95"/>
+          </label>
+    </div>
+    <div class="container row">     
+        <div class="col-md-6">  
+        <label>
+            Admission sought for class :<input type="number"/>
+          </label>
+          </div>
+    
+    <div class="col-md-6">
+    
+        <label>
+            Academic Year :<input type="month"/>
+          </label>
+    </div>
+       </div> 
+       <div class="container row">     
+        <div class="col-md-6">  
+        <label>
+            Date of Birth :<input type="date"/>
+          </label>
+          </div>
+    
+    <div class="col-md-6">
+    
+        <label>
+            Aadhaar No. :<input type="number"/>
+          </label>
+    </div>
+       </div> 
+       <div class="container row">     
+        <div class="col-md-6">  
+        <label>
+          Place of Birth :<input type="text" size="40"/>
+          </label>
+          </div>
+    
+    <div class="col-md-6">
+    
+        <label>
+            Religion :<input type="text" size="44"/>
+          </label>
+    </div>
+       </div> 
+       <div class="container row">     
+        <div class="col-md-6">  
+        <label>
+            Gender : &nbsp; Male<input type="radio" name="gender"/>&nbsp; Female<input type="radio" name="gender">
+          </label>
+          </div>
+    
+    <div class="row">
+          <div class="col-md-2">
+    
+        <label for="caste">
+            Caste :
+             </label>
+    </div>
+    <div >
+             <select name="caste" id="caste">
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="GENERAL">GENERAL</option>
+              </select>
+    </div>
+    </div>
+         
+    </div>
+    <div class="container row">     
+        <div class="col-md-12">  
+        <label>
+          Residential Address :<input type="text" size="106"/>
+          </label>
+          </div>
+    
+    <div class="col-md-4">
+    
+        <label>
+            PinCode :<input type="number"/>
+          </label>
+    </div>
+       </div> 
+       <div class="container row">     
+        <div class="col-md-6">  
+        <label>
+          Mother Tongue :<input type="text" />
+          </label>
+        </div>
+          
+   
+          
+    <div class="row">
+    <div class="col-md-3">
+    
+        <label>
+            BloodGroup:<input type="text">
+          </label></div>
+          <div class="col-md-3">
+            <select name="BLOOD GROUP" id="BloodGroup">
+               <option value="POSITIVE">POSITIVE</option>
+               <option value="NEGATIVE">NEGATIVE</option>
+             </select>
+   </div>
+    </div>
+       </div>
+       <div class="container">  
+        <label>
+          Identification Marks :
+          <ul>
+              1)<input type="text"><br>
+              2)<input type="text">
+          </ul>
+                                   
+          </label>
+
+        </div>
+       
+        <div class="container col-md-11">  
+            <h3><b>
+              Previous academic record</b>                                       
+            </h3>
+        
+              <table>
+                <tr>
+                  <th>Name of the previous school & location</th>
+                  <th>Class</th>
+                  <th>Year of Study</th>
+                  <th>PercentageGrade</th>
+                </tr>
+                <tr>
+                  <td><input type="text"></td>
+                  <td><input type="number"></td>
+                  <td><input type="month"></td>
+                  <td>
+                    <input type="number" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="month"></td>
+                    <td><input type="number" min="0" max="100"></td>
+                </tr>
+              </table>
+                </div>
+                <div class="container col-md-10">  
+                    <h3>
+                      <b>Appraisal of your child
+                         </b>              
+                    </h3>
+                    
+                    <label>Please mention the achievements, if any, of your child ::-- academics/extra-curricular activities</label>
+                    
+                        <input type="text" size="90">
+                    
+                        
+                </div>
+                <hr style="height:2px;width:50%;margin-left:0;
+                color:white;background-color:lightgray">
+                <div class="container col-md-10">  
+                    <label>
+                        General Behaviour : &nbsp; Mild<input type="radio" name="behav"/>&nbsp; Normal<input type="radio" name="behav">&nbsp; Hyperactive<input type="radio" name="behav">
+                      </label>
+                      </div>
+                      <div class="container col-md-10">  
+                                              
+                        <label>Please mention, in brief, if any, if there is any history of previous illness, allergy or physical/ psychological illness
+                            </label>
+                        
+                            <input type="text" size="90">
+                        
+                            
+                    </div>
+                        
+       
+                    <hr style="height:2px;width:20%;margin-left:0;
+                    color:white;background-color:lightgray">
+                    <div class="container row">     
+                        <div class="col-md-6">  
+                        <label>
+                            Second language in previous class  :<input type="text"/>
+                          </label>
+                          </div>
+                    
+                    <div class="col-md-6">
+                    
+                        <label>
+                            Third language in previous class :<input type="text"/>
+                          </label>
+                    </div>
+                       </div> 
+             
+                       <div class="container col-md-10">  
+                        <label>
+                        Language preference ( From Standard V) :
+                                          
+                        </label>
+                        
+                        <div class="row">     
+                            <div class="col-md-6">  
+                            <label>
+                                Second language: &nbsp; Marathi<input type="radio" name="lang"/>&nbsp; Hindi<input type="radio" name="lang">
+                              </label>
+                              </div>
+                        
+                              <div class="col-md-6">  
+                                <label>
+                                    Third language: &nbsp; Marathi<input type="radio" name="lang"/>&nbsp; Hindi<input type="radio" name="lang">
+                                  </label>
+                                  </div>
+                            
+                        
+                            
+                    </div>
+                                    
+                       
+    </div>
+</section>
+ 
+
+</body>
+</html>
